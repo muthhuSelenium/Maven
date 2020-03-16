@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite" parallel="methods">
+  <test thread-count="5" name="Test">
+    <classes>
+      <class name="com.vtiger.testscript.CreateFilterWithStartDate"/>
+      <class name="com.vtiger.testscript.CreateFilterWithEndDate"/>
+      <class name="com.vtiger.testscript.CreateFilter"/>
+      <class name="com.vtiger.testscript.CreateFilterWith2columns"/>
+      <class name="com.vtiger.testscript.CreateFilterWithoutViewName"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
